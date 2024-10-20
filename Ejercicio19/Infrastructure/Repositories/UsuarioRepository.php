@@ -76,7 +76,7 @@ class UsuarioRepository implements IUsuarioRepository {
             $usuariosModel = $usuariobd->mapperEntityToModel();
             $usuariosModel[] = $usuarioModel;
         }
-        
+        return $usuariosModelList;
     }
 }
 
